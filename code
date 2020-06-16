@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Home</title>
+    
+        <style>
+            body {
+                font-family: sans-serif;
+            }
+            .container {
+                margin: 20px;
+                background-color: beige;
+                padding: 20px;
+                text-align: center;
+            
+            }
+            
+            .poopoo {
+                margin: 40px;
+                background-color: gainsboro;
+                padding: 20px;
+                color: white;
+            }
+        </style>
+        
+    </head>
+    
+    <body>
+        
+        <div class="container">
+            <h3>THIS IS MY AWESOME WEBPAGE</h3>
+        </div>
+        
+        <div class="poopoo">
+            <h1>more</h1>
+        </div>
+        <h1>Home page</h1>
+        <p>This is my page</p>
+        <a href="http://www.nhl.com"target="_blank">NHL - National Hockey League</a><br>
+        <img src="nhl.png" style="width:200px; padding:20px;">
+    </body>
+    
+</html>
