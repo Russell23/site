@@ -11,16 +11,42 @@
           <a class="active" href="index.html">Home</a>
           <a href="contact.html">Contact</a>
           <a href="about.html">About</a>
+            <button class="mybutton" onclick="myfunction()"><i class="fa fa-search"></i></button>
+          <input class="inputbox" id="myinput" placeholder="search for player">
+        </div>
+        
+        <div style="float: right; margin: 20px">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9ezyNRrLZgM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         
         <div class="container">
             <h1>Home page</h1>
             <p>This is my home page</p>
-            <a href="http://www.gmail.com" target="_blank">Email Address-russellfoo23@gmail.com</a><br>
+            <a href="http://www.gmail.com" target="_blank">Contact Me-russellfoo23@gmail.com</a><br>
             <img src="bearbear.png" style="width: 300px; padding: 20px;">
         </div>
-        
+
+        </body>
     
-    </body>
+            <script>
+                
+                function myfunction() {
+
+                //data = [{pokemon:"bulbasur",type:"grass"},{pokemon: "pikachu",type:"electric"},{pokemon:"charmander",type:"fire"}];
+
+                myinput = document.getElementById("myinput");
+                mydiv = document.getElementById("info");
+
+                for (i=0;i<data.length;i++) {
+                    if (data[i]['pokemon'] == myinput.value.toLowerCase()) {
+                        alert(data[i]['type']);
+                        break;
+                    }
+                }
+
+                myinput.value = "";
+            }
+
+            </script>
     
-</html>
+    </html>
